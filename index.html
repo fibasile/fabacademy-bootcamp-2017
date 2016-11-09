@@ -15,10 +15,8 @@
   <script src="lib/semantic/dist/semantic.min.js"></script>
   <script src="lib/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
   <script src="js/main.js"></script>
-
 </head>
 <body>
-
 <!-- Following Menu -->
 <div id="following" class="ui large top fixed hidden menu">
   <div class="ui container">
@@ -52,9 +50,9 @@
 
 
 <!-- Page Contents -->
-<div class="pusher">  <span id="top"></span>
+<div class="pusher">  
+  <span id="top"></span>
   <div  id="headbg" class="ui inverted vertical masthead center aligned segment">
-
     <div class="ui container">
       <div class="ui large secondary inverted pointing menu">
         <a class="toc item">
@@ -74,18 +72,16 @@
     </div>
 
     <div class="ui text container">
-
       <h1 class="ui inverted header logo">
-        Fab Academy Bootcamp
+        <img class="ui huge image" src="img/icons/icone-bootcamp.png" width="800" height="285" alt="BOOTCAMP">
       </h1>
       <h2 class="sub-logo">Le basi della digital fabrication, da zero alla Fab Academy</h2>
-      <a data-scroll href="#bootcamp" class="ui huge primary button">Scopri di pi&ugrave; <i class="down arrow icon"></i></a>
+      <a data-scroll href="#bootcamp" class="ui huge primary button buttonlogo" style="display:none">Scopri di pi&ugrave; <i class="down arrow icon"></i></a>
     </div>
-
   </div>
-
+  <!-- about block -->
   <div class="ui vertical stripe segment">
-    <div class="ui middle aligned stackable grid container">
+    <div class="ui top aligned stackable grid container">
       <span id="bootcamp"></span>
 
       <div class="row">
@@ -95,206 +91,260 @@
             che prevede due intensi weekend di making.</p>
           <p> Grazie alle nozioni apprese durante questo corso, potrai utilizzare gran parte delle macchine del Fab Lab
               per realizzare tutto quello che hai sempre desiderato.</p>
+             
+              <h3 class="ui header">Il trainer</h3>
+              <div class="ui items">
+                  <div class="item">
+                    <a class="ui tiny image">
+                      <img src="https://pbs.twimg.com/profile_images/731386940931604480/YO-tP_An.jpg">
+                    </a>
+                    <div class="content">
+                      <a class="header">Fiore Basile</a>
+                      <div class="description">
+                        <p>Esperto di Digital Fabrication, &egrave; Fab Academy Guru del Fab Lab Toscana.</p>
+                        <p><a href="https://github.com/fibasile">Github</a> | <a href="http://https://www.linkedin.com/in/fibasile">Linkedin</a></p>
+                      </div>
+                    </div>
                   </div>
+              </div>
+        </div>
         <div class="seven wide right floated column">
           <h3 class="ui header">Preparati alla Fab Academy</h3>
           <p>Il corso è una perfetta occasione per imparare le basi necessarie a seguire
-             la Fab Academy 2017, che partirà il 18 gennaio 2017.<p>
+             la Fab Academy 2017, che partirà il 18 gennaio 2017.</p>
           <p><strong>Se deciderai di frequentare da noi la Fab Academy, potrai recuperare l'intero costo del corso!</strong></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="center aligned column">
-          <a data-scroll href="#programma" class="ui huge button">Scopri il programma</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="seven wide column">
-          <h3 class="ui header">Il trainer</h3>
-          <div class="ui items">
-  <div class="item">
-    <a class="ui tiny image">
-      <img src="https://pbs.twimg.com/profile_images/731386940931604480/YO-tP_An.jpg">
-    </a>
-    <div class="content">
-      <a class="header">Fiore Basile</a>
-      <div class="description">
-        <p>Esperto di Digital Fabrication, &egrave; Fab Academy Guru del Fab Lab Toscana.</p>
-        <p><a href="https://github.com/fibasile">Github</a> | <a href="http://https://www.linkedin.com/in/fibasile">Linkedin</a>
-        </div>
-    </div>
- </div>
- </div>
-                  </div>
-        <div class="seven wide right floated column">
           <h3 class="ui header">Ottieni il massimo dal Fab Lab</h3>
           <p>Progettare e realizzare (quasi) qualsiasi cosa &egrave; pi&ugrave; facile se sai cosa fare. Il Fab Academy bootcamp ti da gli strumenti
           per essere immediatamente operativo in qualsiasi laboratori del Fab Lab Network</p>
         </div>
       </div>
+      <div class="row">
+        <div class="center aligned column">
+            <a data-scroll href="#programma" class="ui primary huge button">Scopri il programma</a>
+        </div>
+      </div> <!-- row -->
     </div>
-  </div>
-
-
-  <div class="ui vertical stripe quote segment  inverted ">
-    <div class="ui equal width stackable internally celled grid secondbg">
+  </div> <!-- segment -->
+  
+  <!-- program block -->
+  <div class="ui vertical stripe  segment">
+    <div class="ui equal width stackable grid container">
       <span id="programma"></span>
-
       <div class="center aligned row">
         <div class="column">
-          <h3 class="ui header inverted">Programma del corso</h3>
-          <p>Il corso si terr&agrave; Sabato e Domenica dalle 10:00 alle 19:00</p>
-        </div>
-      </div>
-
-        <div class="center aligned row">
-        <div class="column">
-          <h3>Sabato 10 Dicembre</h3>
-          <p>Disegno 2D e Modellazione 3D</p>
-          <p class="ui header inverted">Scopriremo le nozioni di base della computer graphics, passando dal disegno 2D alla modellazione di oggetti tridimensionali.
-             Con una combinazione di Gimp, Inkscape, TinkerCAD e Sketchup potremo progettare subito oggetti da realizzare nei successivi appuntamenti.</p>
-        </div>
-        <div class="column">
-          <h3>Domenica 11 Dicembre</h3>
-          <p>Vinyl cutter e laser cutter</p>
-          <p class="ui header inverted">Utilizzando immagini e illustrazioni impareremo a usare la vynil cutter Roland GX-24 per la realizzazione di adesivi in vinile.
-             Passeremo poi alle tecniche di design 2.5D per tradurre forme in oggetti tridimensionali, ad esempio per realizzare oggetti in cartone,
-             con cui verr&agrave; introdotto l’uso della Laser Cutter e le tecniche press-fit per assemblare oggetti
-             senza l’uso di colla e viti, insieme a tutti i trucchi per utilizzare al meglio questa tecnologia.
-          </p>
-        </div>
-      </div>
-      <div class="center aligned row">
-        <div class="column">
-          <h3>Sabato 17 Dicembre</h3>
-          <p>Stampa e scansione 3D</p>
-          <p class="ui header inverted">In questo modulo proveremo le varie tecnologie per la scansione 3D come il sensore Kinect, il software 123DCatch e la scansione laser.
-            Passando alla Stampa 3D, impareremo gli accorgimenti per modellare oggetti adatti alla stampa e a rifinire i modelli acquisiti con la scansione.
-            Tutti i modelli realizzati saranno poi stampati utilizzando le stampanti 3D a deposizione (FDM) e a resina (SLS) del laboratorio.
-          </p>
-        </div>
-        <div class="column">
-          <h3>Domenica 18 Dicembre</h3>
-          <p>Basi di Elettronica e Programmazione</p>
-          <p class="ui header inverted">
-            Un’introduzione al mondo dell’elettronica e all’universo dei microcontroller. Impareremo a scrivere un programma, a compilarlo e caricarlo. Con Arduino scopriremo come fare interagire il nostro computer
-            con l'ambiente esterno utilizzando LED, motori e sensori.
-          </p>
-
+          <h1 class="ui header">Programma del corso</h1>
+          <h3>Il corso si terr&agrave; Sabato e Domenica dalle 10:00 alle 19:00</h3>
         </div>
       </div>
     </div>
-  </div>
-
-
-  <div class="ui vertical stripe segment">
-    <div class="ui text container">
-      <span id="costi"></span>
-      <h3 class="ui header">Quota di iscrizione</h3>
-        <div class="ui grid equal width">
-          <div class="row">
-              <div class="column">
-                <p><strong>Entro il 20/11</strong> <br>
-                  <ul>
-                    <li><strong>Associati Fab Lab Toscana</strong> &euro; 250,-</li>
-                    <li><strong>Non associati</strong> &euro; 300,-</li>
-                  </ul>
-
-
-                </p>
-              </div>
-              <div class="column">
-                <p><strong>Dopo il 20/11</strong> <br>
-                  <ul>
-                    <li><strong>Associati Fab Lab Toscana</strong> &euro; 300,-</li>
-                    <li><strong>Non associati</strong> &euro; 350,-</li>
-                  </ul>
-                </p>
-              </div>
+    <div class="ui two column stackable grid container">
+      <div class="column">
+          <div class="ui fluid card" >
+            <div class="image" style="background-color: black">
+               <img src="img/icons/2E3D.png">
+             </div>
+            <div class="content">
+              <h3 class="header">Sabato 10 Dicembre</h3>
+              <div class="divider"></div>
+              Scopriremo le nozioni di base della computer graphics, passando dal disegno 2D alla modellazione di oggetti tridimensionali.
+                Con una combinazione di Gimp, Inkscape, TinkerCAD e Sketchup potremo progettare subito oggetti da realizzare nei successivi appuntamenti.
+            </div>
           </div>
-          <div class="row">
-            <div class="column">
-              <div class="ui grey inverted segment">
-                <h3 class="ui sub-header">Fab Academy</h3>
-                <p>Se deciderai di seguire anche il corso Fab Academy 2017 presso il Fab Lab riceverai uno sconto sulla retta del corso pari alla quota di iscrizione versata per il Bootcamp.</p>
-              </div>
-                  </div>
-                  <div class="column">
-                    <h3 class="ui sub-header">Cosa comprende</h3>
-                            <ul>
-                                <li>4 giornate di lezione da 8h ciascuna</li>
-                                <li>Materiali usati durante il corso</li>
-                                <li>Uso del laboratorio</li>
-                                <li>Assicurazione individuale sugli infortuni <br><small> per i non associati </small></li>
-                            </ul>
-                            <a class="ui button red" href="https://goo.gl/forms/uPe9ivBOsWczaqUJ2">Iscriviti adesso</a>
-                  </div>
+      </div>
+      <div class="column">
+          <div class="ui fluid card" >
+            <div class="image" style="background-color: black">
+               <img src="img/icons/LASER.png">
+             </div>
+            <div class="content">
+              <h3 class="header">Domenica 11 Dicembre</h3>
+              <div class="divider"></div>
+              Utilizzando immagini e illustrazioni impareremo a usare la vynil cutter Roland GX-24 per la realizzazione di adesivi in vinile.
+                           Passeremo poi alle tecniche di design 2.5D per tradurre forme in oggetti tridimensionali, ad esempio per realizzare oggetti in cartone,
+                           con cui verr&agrave; introdotto l’uso della Laser Cutter e le tecniche press-fit per assemblare oggetti
+                           senza l’uso di colla e viti, insieme a tutti i trucchi per utilizzare al meglio questa tecnologia.
+            </div>
+          </div>
+      </div>
+      <div class="column">
+          <div class="ui fluid card" >
+            <div class="image" style="background-color: black">
+               <img src="img/icons/SCANNER.png">
+             </div>
+            <div class="content">
+              <h3 class="header">Sabato 17 Dicembre</h3>
+              <div class="divider"></div>
+              In questo modulo proveremo le varie tecnologie per la scansione 3D come il sensore Kinect, il software 123DCatch e la scansione laser.
+              Passando alla Stampa 3D, impareremo gli accorgimenti per modellare oggetti adatti alla stampa e a rifinire i modelli acquisiti con la scansione.
+              Tutti i modelli realizzati saranno poi stampati utilizzando le stampanti 3D a deposizione (FDM) e a resina (SLS) del laboratorio.
+            </div>
+          </div>
+      </div>
+      <div class="column">
+          <div class="ui fluid card" >
+            <div class="image" style="background-color: black">
+               <img src="img/icons/ARDUINO.png">
+             </div>
+            <div class="content">
+              <h3 class="header">Domenica 18 Dicembre</h3>
+              <div class="divider"></div>
+              Un’introduzione al mondo dell’elettronica e all’universo dei microcontroller. Impareremo a scrivere un programma, a compilarlo e caricarlo. Con Arduino scopriremo come fare interagire il nostro computer
+              con l'ambiente esterno utilizzando LED, motori e sensori.
+            </div>
           </div>
         </div>
-  </div>
-</div>
+      </div>
+    </div>
 
+  <!-- prices block -->
+  <div class="ui vertical stripe segment">
+      <span id="costi"></span>
+          <div class="ui grid container">
+            <div class="center aligned row">
+              <div class="column">
+                <h1 class="ui header">Quota di iscrizione</h1>
+              </div>
+            </div>
+          </div>
+          <div class="ui three column stackable grid container">
+              <div class="column">
+                <div class="ui fluid card">
+                  <div class="content">
+                        <h1 class="ui header">Quanto costa</h1>
+                        <div class="ui list">
+                          <h4 class="header">Entro il 20/11</h4>
+                          <div class="item">
+                            <div class="content">
+                              <strong>Associati Fab Lab Toscana</strong> &euro; 250,-
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="content">
+                              <strong>Non associati</strong> &euro; 300,-
+                            </div>
+                          </div>
+                        <h4 class="header">Dopo il 20/11</h4>
+                        <div class="item">
+                          <div class="content">
+                            <strong>Associati Fab Lab Toscana</strong> &euro; 300,-
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="content">
+                            <strong>Non associati</strong> &euro; 350,-
+                          </div>
+                        </div>                  
+                      </div>
+   
+                  </div>
+                </div>            
+              </div>
+              <div class="column">
+                <div class="ui fluid card">
+                  <div class="content">
+                    <h3 class="ui header">Cosa comprende</h3>
+                    <div class="ui list">
+                          <div class="item">
+                                 <i class="check large icon"></i>
+                               <div class="content">
+                                 <a class="header">4 giornate di lezione da 8h ciascuna</a>
+                               </div>
+                          </div>
+                          <div class="item">
+                               <i class="right check large icon"></i>
+                               <div class="content">
+                               <a class="header">Materiali usati durante il corso</a>
+                               </div>
+                          </div>
+                          <div class="item">
+                               <i class="right check large icon"></i>
+                               <div class="content">
+                            <a  class="header">Uso del laboratorio</a>
+                               </div>
+                          </div>
+                          <div class="item">
+                               <i class="right check large icon"></i>
+                               <div class="content">
+                            <a class="header">Assicurazione individuale sugli infortuni per i non associati a Fab Lab Toscana</a>
+                               </div>
+                          </div>
+                        </div>
+                        <a class="ui bottom attached button red" href="https://goo.gl/forms/uPe9ivBOsWczaqUJ2">
+                          Iscriviti adesso</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="column">
+                  <div class="ui fluid card">
+                    <div class="content">
+                      <h3 class="ui header">Fab Academy</h3>
+                      <p>Se deciderai di seguire anche il corso Fab Academy 2017 presso il Fab Lab riceverai uno sconto sulla retta del corso pari alla quota di iscrizione versata per il Bootcamp.</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          
+      </div>
 
-  <div class="ui vertical  segment" id="fablab-segment">
+  <!-- fablab block -->
+  <div class="ui vertical stripe quote segment" id="fablab-segment">
     <div class="ui top aligned thirdbg ">
       <div class="ui stackable grid container">
       <span id="fablab"></span>
 
-
       <div class="row">
         <div class="six wide column">
-          <h3 class="ui header"><img class="ui medium image" src="http://fablabtoscana.it/img/logo.png"></h3>
+          <div class="ui fluid card">
+            <div class="content">
+                <div class="image"><img class="ui medium image" src="http://fablabtoscana.it/img/logo.png"></div>
+                <div class="description">
+                <p>Per realizzare un corso di fabbricazione digitale serve un laboratorio attrezzato con tutte le macchine, i materiali e lo spazio necessario per lavorare ai progetti.</p>
+                <p>Il Fab Lab Toscana, presso il Polo Tecnologico di Navacchio è fornito di tutte le macchine necessarie a realizzare i tuoi progetti di fabbricazione.</p>
+              </div>
+            </div>
+              <a target="_blank" href="http://fablabtoscana.it" class="ui large button"><i class="external icon"></i>Sito web di Fab Lab Toscana</a>
+          </div>
+          <div class="ui fluid card">
+            <div class="content">
+                <h3 class="ui header">Come raggiungere il Fab Lab</h3>
+                <div class="description">
+                <p>Fab Lab Toscana - Cascina è situato all'interno del Polo Scientifico e Tecnologico di Navacchio, in provincia di Pisa, a pochi chilometri dal centro della città e dall'aeroporto, immediatamente all'esterno della stazione ferroviaria di Navacchio sulla linea Firenze - Pisa.</p>
+              </div>
+            </div>
+            <a target="_blank" href="https://www.google.com/maps?ll=43.682931,10.492018&z=16&t=m&hl=it-IT&gl=IT&mapclient=embed&daddr=FabLab+Toscana+Via+Mario+Giuntini,+192+56021+Cascina+PI@43.6829314,10.4920185" class="ui large button"><i class="globe icon"></i>  Apri Google maps</a>
+           </div>
+          </div>
 
-      <p>Per realizzare un corso di fabbricazione digitale serve un laboratorio attrezzato con tutte le macchine,
-        i materiali e lo spazio necessario per lavorare ai progetti.</p>
-        <p>Il Fab Lab Toscana, presso il Polo Tecnologico di Navacchio è fornito di tutte le macchine necessarie a realizzare i tuoi progetti di fabbricazione.</p>
-        <p><a target="_blank" href="http://fablabtoscana.it" class="ui large button"><i class="external icon"></i>Sito web di Fab Lab Toscana</a></p>
+        <div class="ten wide column">
+            <div id="google-map" class="ui container aligned segment">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.3286057138084!2d10.489829815391547!3d43.68293137912018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d58c2eee79a287%3A0x5d8c1081b8f68306!2sFabLab+Toscana!5e0!3m2!1sen!2sit!4v1478458312500" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="ten wide column">
-
-      <h3 class="ui sub-header">Come raggiungere il Fab Lab</h3>
-<p style="font-size: 90%">Fab Lab Toscana - Cascina è situato all'interno del Polo Scientifico e Tecnologico di Navacchio, in provincia di Pisa,
-a pochi chilometri dal centro della città e dall'aeroporto,
-immediatamente all'esterno della stazione ferroviaria di Navacchio.</p>
-<div id="google-map" class="ui container aligned segment">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.3286057138084!2d10.489829815391547!3d43.68293137912018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d58c2eee79a287%3A0x5d8c1081b8f68306!2sFabLab+Toscana!5e0!3m2!1sen!2sit!4v1478458312500" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
-<p>
-<a target="_blank" href="https://www.google.com/maps?ll=43.682931,10.492018&z=16&t=m&hl=it-IT&gl=IT&mapclient=embed&daddr=FabLab+Toscana+Via+Mario+Giuntini,+192+56021+Cascina+PI@43.6829314,10.4920185" class="ui large button">
-<i class="globe icon"></i>  Apri Google maps</a></p>
-</div>
-      </div>
-    </div>
-
     </div>
   </div>
 
   <div class="ui vertical stripe segment">
-
     <span id="fabacademy"></span>
-
-
     <div class="ui text container">
-
-
-    <h3 class="ui header"><img class="ui medium image" src="img/fabacademy.png"></h3>
-
+      <h3 class="ui header"><img class="ui medium image" src="img/fabacademy.png"></h3>
       <p>Il corso più avanzato al mondo di fabbricazione digitale, sviluppato per insegnare le abilità pratiche nei Fab Lab,
         i laboratori nati come un progetto di divulgazione del Center for Bits &amp; Atoms del MIT e diventati oggi un
-  network globale con più di 1000 sedi.<p>
-    <p><a href="http://fabacademy.org"><img src="img/fabacademy_flyer.jpg" class="ui centered large image"></a></p>
-<p> Il programma della Fab Academy si basa sul famoso corso di prototipazione rapida del MIT How To Make (almost) Anything,
-   di Neil Gershenfeld, che ne estende la portata ad un contesto globale.</p>
-<p> Oltre 60 Fab Lab del Network partecipano a questo programma, che da qualche anno è disponibile anche in Italia, in contemporanea col resto del mondo.</p>
-<p>In Toscana puoi seguire la Fab Academy nelle sedi Cascina (PI) e Siena.</p>
+        network globale con più di 1000 sedi.</p>
+      <p><a href="http://fabacademy.org"><img src="img/fabacademy_flyer.jpg" class="ui centered large image"></a></p>
+      <p> Il programma della Fab Academy si basa sul famoso corso di prototipazione rapida del MIT How To Make (almost) Anything,
+        di Neil Gershenfeld, che ne estende la portata ad un contesto globale.</p>
+      <p> Oltre 60 Fab Lab del Network partecipano a questo programma, che da qualche anno è disponibile anche in Italia, in contemporanea col resto del mondo.</p>
+      <p>In Toscana puoi seguire la Fab Academy nelle sedi Cascina (PI) e Siena.</p>
 
-  <div class="ui center aligned container">
-      <a class="ui large button" href="http://fabacademy.org/">Visita il sito web per maggiori informazioni</a>
-    </div>
+      <div class="ui center aligned container">
+        <a class="ui large button" href="http://fabacademy.org/">Visita il sito web per maggiori informazioni</a>
+      </div>
     </div>
   </div>
 
-<div class="ui vertical stripe segment inverted dark grey">
+<div class="ui vertical stripe inverted blue segment">
   <div class="ui text container">
     <span id="contatti"></span>
 

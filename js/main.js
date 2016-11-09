@@ -1,11 +1,18 @@
 $(document)
 .ready(function() {
 
-
+  $('.buttonlogo').hide();
   $('.logo').transition({
-    animation: 'pulse',
+    animation: 'slide left',
+    duration: 500,
     onComplete: function(){
-      $('.sub-logo').transition('pulse')
+      $('.sub-logo').transition({
+        animation: 'slide right',
+        duration: 500,
+        onComplete: function(){
+          $('.buttonlogo').css('display',null).transition('fade in')          
+        }
+      })
     }
   });
 

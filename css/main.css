@@ -2,6 +2,10 @@
   display: none;
 }
 
+.logo, .sub-logo, .buttonlogo {
+  display: none;
+}
+
 #headbg {
   background-color: #333;
   background-image: url('../img/backdrop.jpg');
@@ -21,6 +25,8 @@
  }
 #fablab-segment,
  .transparent {
+   padding-top: 0;
+   padding-bottom: 0;
    background-color: transparent;
  }
  .thirdbg {
@@ -37,6 +43,14 @@
   min-height: 700px;
   padding: 1em 0em;
 }
+
+.logo_date {
+  float: left;
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 27px;
+}
+
 .masthead .logo.item img {
   margin-right: 1em;
 }
